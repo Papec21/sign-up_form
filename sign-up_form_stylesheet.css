@@ -1,0 +1,134 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+.left {
+	width: 40%;
+	position: relative;
+}
+
+.title {
+	display: flex;
+	position: absolute;
+	height: 19vh;
+	width: 100%;
+	top: 10vh;
+	left: 0%;
+	background-color: rgba(0, 0, 0, 0.42);
+}
+
+.logo {
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+	color: black;
+	height: 9vw;
+}
+
+h1 {
+	font-size: 10vw;
+}
+
+.right {
+	display: flex;
+	flex-direction: column;
+	width: 60vw;
+	background-color: rgba(246, 246, 246, 0.8);
+	height: 100vh;
+}
+
+body {
+	display: flex;
+	height: 100vh;
+}
+
+.input-container {
+	position: relative;
+	margin: 2vh 0;
+	min-width: 20vw;
+}
+
+label {
+	position: absolute;
+	top: -1vw;
+	left: 0px;
+	font-size: 1vw;
+}
+
+input {
+	font-size: 1vw;
+}
+
+form {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	align-content: flex-start;
+	gap: 3vw;
+	padding-left: 5vw;
+	height: 35vh;
+	background-color: white;
+	padding-top: 10vh;
+	border-bottom: 1px solid #ddd;
+	box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+input:invalid {
+	border-color: red;
+}
+
+button {
+	height: 6vh;
+	width: 16vw;
+	background-color: rgba(238, 59, 59, 0.8);
+	border-radius: 1vh;
+	font-size: 1.3vw;
+	margin: 3vh 0 1vh 5vh;
+	border: 1px solid #ddd;
+	box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+a {
+	color: rgba(238, 59, 59, 0.8);
+	text-decoration: none;
+}
